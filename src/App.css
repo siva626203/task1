@@ -1,38 +1,146 @@
-.App {
+
+.card{
+  position: absolute;
+width: 378px;
+height: 369px;
+left: 25px;
+top: 120px;
+background: linear-gradient(122.62deg, #AD37E0 0%, #EE2B3B 100%);
+border-radius: 40px;
+}
+.b-home{
+position: absolute;
+margin-top: 300px;
+margin-left: 30px;
+padding: 15px 30px;
+font-family: 'Metropolis';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 16px;
+background-color: #F5F5F5;
+border-radius: 40px;
+}
+.box{
+  background: #F3EDF4;
+box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.15), 5px 5px 10px rgba(0, 0, 0, 0.2);
+align-items: bottom;
+}
+.card .img{
+  
+width: 192px;
+height: 285px;
+left: 300px;
+top: 96px;
+}
+.vec{
+  text-align: right;
+  padding-right: 20px;
+  
+}
+.vec2{
+  
+  text-align: right;
+  margin-left: 20px;
+  margin-right: 20px;
+ 
+}
+.t1{
+  margin-left: 30px;
+  margin-top: 30px;
+  color: #F3EDF4;
+  position: absolute;
+  font-family: 'Metropolis';
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 30px;
+}
+.t2{
+  position: absolute;
+  color: #F3EDF4;
+  margin-left: 30px;
+  margin-top: 150px;
+  font-family: 'Metropolis';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+}
+.img2{
+
+ margin-top: 10px;
+}
+.para{
+  position: absolute;
+width: 378px;
+height: 188px;
+left: 25px;
+top: 519px;
+padding-bottom: 10px;
+background: linear-gradient(90deg, #FFDCFE 0%, rgba(255, 220, 254, 0) 74.6%);
+
+box-shadow: -10px -10px 20px #FAF6FB, 10px 10px 20px #DFD3E1;
+border-radius: 30px;
+}
+.c1{
+position: fixed;
+margin-top: 10px;
+margin-left: 30px;
+margin-bottom: 10px;
+width: 252px;
+height: 250px;
+left: 25px;
+top: 519px;
+font-family: 'Metropolis';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 13px;
+}
+.c2{
+  margin-top: 10px;
+  position: absolute;
+  margin-left: 220px;
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 13px;
+}
+.ct1{
+  margin-top: 10px;
+}
+.ct3{
+  margin-top: 10px;
+  font-weight: bold; 
+}
+.ct2{
+  margin-top: 1px;
+  font-size: 10px;
+}
+.done{
+  position: absolute;
+width: 378px;
+height: 50px;
+left: 25px;
+top: 737px;
+
+background: linear-gradient(122.62deg, #AD37E0 0%, #EE2B3B 100%);
+border-radius: 30px;
+
+
+}
+.done-t{ 
+  color: #F3EDF4;
+  margin-top: 20px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  position: absolute;
+  margin-left: 150px;
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 20px;
+  
 }
